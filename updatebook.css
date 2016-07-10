@@ -1,0 +1,11 @@
+/* These two classes are specific to my book */
+.c_odt21 { 
+	border:1px dotted #cfe7f5 }	
+.c_odt21 + .c_odt21 {
+	margin-top: -11px; border-top-style: solid; border-top-color: white;}
+
+p {  }
+
+/* This one is actually important */	
+li > p:first-child {
+	display: inline !important;}
